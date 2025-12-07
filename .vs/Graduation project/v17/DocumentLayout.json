@@ -1,0 +1,449 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\Kolya\\Grad project\\Graduation project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{883B4D71-283B-4E07-BFA6-EB716BD4E65F}|Health.Contracts\\Health.Contracts.csproj|h:\\kolya\\grad project\\graduation project\\health.contracts\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{883B4D71-283B-4E07-BFA6-EB716BD4E65F}|Health.Contracts\\Health.Contracts.csproj|solutionrelative:health.contracts\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5A5BC0E-CB87-4CEB-987F-34D3B36E7A78}|Health.Application\\Health.Application.csproj|h:\\kolya\\grad project\\graduation project\\health.application\\health.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F5A5BC0E-CB87-4CEB-987F-34D3B36E7A78}|Health.Application\\Health.Application.csproj|solutionrelative:health.application\\health.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{883B4D71-283B-4E07-BFA6-EB716BD4E65F}|Health.Contracts\\Health.Contracts.csproj|h:\\kolya\\grad project\\graduation project\\health.contracts\\responses\\doctorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{883B4D71-283B-4E07-BFA6-EB716BD4E65F}|Health.Contracts\\Health.Contracts.csproj|solutionrelative:health.contracts\\responses\\doctorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{883B4D71-283B-4E07-BFA6-EB716BD4E65F}|Health.Contracts\\Health.Contracts.csproj|h:\\kolya\\grad project\\graduation project\\health.contracts\\requests\\doctors\\createdoctorrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{883B4D71-283B-4E07-BFA6-EB716BD4E65F}|Health.Contracts\\Health.Contracts.csproj|solutionrelative:health.contracts\\requests\\doctors\\createdoctorrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{883B4D71-283B-4E07-BFA6-EB716BD4E65F}|Health.Contracts\\Health.Contracts.csproj|h:\\kolya\\grad project\\graduation project\\health.contracts\\enums\\appointmentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{883B4D71-283B-4E07-BFA6-EB716BD4E65F}|Health.Contracts\\Health.Contracts.csproj|solutionrelative:health.contracts\\enums\\appointmentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{883B4D71-283B-4E07-BFA6-EB716BD4E65F}|Health.Contracts\\Health.Contracts.csproj|h:\\kolya\\grad project\\graduation project\\health.contracts\\responses\\users\\userresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{883B4D71-283B-4E07-BFA6-EB716BD4E65F}|Health.Contracts\\Health.Contracts.csproj|solutionrelative:health.contracts\\responses\\users\\userresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{883B4D71-283B-4E07-BFA6-EB716BD4E65F}|Health.Contracts\\Health.Contracts.csproj|h:\\kolya\\grad project\\graduation project\\health.contracts\\requests\\users\\registeruserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{883B4D71-283B-4E07-BFA6-EB716BD4E65F}|Health.Contracts\\Health.Contracts.csproj|solutionrelative:health.contracts\\requests\\users\\registeruserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{883B4D71-283B-4E07-BFA6-EB716BD4E65F}|Health.Contracts\\Health.Contracts.csproj|h:\\kolya\\grad project\\graduation project\\health.contracts\\requests\\users\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{883B4D71-283B-4E07-BFA6-EB716BD4E65F}|Health.Contracts\\Health.Contracts.csproj|solutionrelative:health.contracts\\requests\\users\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{883B4D71-283B-4E07-BFA6-EB716BD4E65F}|Health.Contracts\\Health.Contracts.csproj|h:\\kolya\\grad project\\graduation project\\health.contracts\\enums\\notificationtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{883B4D71-283B-4E07-BFA6-EB716BD4E65F}|Health.Contracts\\Health.Contracts.csproj|solutionrelative:health.contracts\\enums\\notificationtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{883B4D71-283B-4E07-BFA6-EB716BD4E65F}|Health.Contracts\\Health.Contracts.csproj|h:\\kolya\\grad project\\graduation project\\health.contracts\\enums\\homeservicestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{883B4D71-283B-4E07-BFA6-EB716BD4E65F}|Health.Contracts\\Health.Contracts.csproj|solutionrelative:health.contracts\\enums\\homeservicestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{883B4D71-283B-4E07-BFA6-EB716BD4E65F}|Health.Contracts\\Health.Contracts.csproj|h:\\kolya\\grad project\\graduation project\\health.contracts\\requests\\medicalrecords\\createmedicalrecordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{883B4D71-283B-4E07-BFA6-EB716BD4E65F}|Health.Contracts\\Health.Contracts.csproj|solutionrelative:health.contracts\\requests\\medicalrecords\\createmedicalrecordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{883B4D71-283B-4E07-BFA6-EB716BD4E65F}|Health.Contracts\\Health.Contracts.csproj|h:\\kolya\\grad project\\graduation project\\health.contracts\\requests\\chat\\sendmessagerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{883B4D71-283B-4E07-BFA6-EB716BD4E65F}|Health.Contracts\\Health.Contracts.csproj|solutionrelative:health.contracts\\requests\\chat\\sendmessagerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{883B4D71-283B-4E07-BFA6-EB716BD4E65F}|Health.Contracts\\Health.Contracts.csproj|h:\\kolya\\grad project\\graduation project\\health.contracts\\requests\\nurses\\nurseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{883B4D71-283B-4E07-BFA6-EB716BD4E65F}|Health.Contracts\\Health.Contracts.csproj|solutionrelative:health.contracts\\requests\\nurses\\nurseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{883B4D71-283B-4E07-BFA6-EB716BD4E65F}|Health.Contracts\\Health.Contracts.csproj|h:\\kolya\\grad project\\graduation project\\health.contracts\\requests\\prescriptions\\prescriptionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{883B4D71-283B-4E07-BFA6-EB716BD4E65F}|Health.Contracts\\Health.Contracts.csproj|solutionrelative:health.contracts\\requests\\prescriptions\\prescriptionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{883B4D71-283B-4E07-BFA6-EB716BD4E65F}|Health.Contracts\\Health.Contracts.csproj|h:\\kolya\\grad project\\graduation project\\health.contracts\\requests\\prescriptions\\uploadprescriptionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{883B4D71-283B-4E07-BFA6-EB716BD4E65F}|Health.Contracts\\Health.Contracts.csproj|solutionrelative:health.contracts\\requests\\prescriptions\\uploadprescriptionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{883B4D71-283B-4E07-BFA6-EB716BD4E65F}|Health.Contracts\\Health.Contracts.csproj|h:\\kolya\\grad project\\graduation project\\health.contracts\\requests\\medicaltasks\\medicaltaskresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{883B4D71-283B-4E07-BFA6-EB716BD4E65F}|Health.Contracts\\Health.Contracts.csproj|solutionrelative:health.contracts\\requests\\medicaltasks\\medicaltaskresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{883B4D71-283B-4E07-BFA6-EB716BD4E65F}|Health.Contracts\\Health.Contracts.csproj|h:\\kolya\\grad project\\graduation project\\health.contracts\\requests\\medicaltasks\\createmedicaltaskrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{883B4D71-283B-4E07-BFA6-EB716BD4E65F}|Health.Contracts\\Health.Contracts.csproj|solutionrelative:health.contracts\\requests\\medicaltasks\\createmedicaltaskrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{883B4D71-283B-4E07-BFA6-EB716BD4E65F}|Health.Contracts\\Health.Contracts.csproj|h:\\kolya\\grad project\\graduation project\\health.contracts\\requests\\medications\\medicationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{883B4D71-283B-4E07-BFA6-EB716BD4E65F}|Health.Contracts\\Health.Contracts.csproj|solutionrelative:health.contracts\\requests\\medications\\medicationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{883B4D71-283B-4E07-BFA6-EB716BD4E65F}|Health.Contracts\\Health.Contracts.csproj|h:\\kolya\\grad project\\graduation project\\health.contracts\\requests\\medications\\createmedicationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{883B4D71-283B-4E07-BFA6-EB716BD4E65F}|Health.Contracts\\Health.Contracts.csproj|solutionrelative:health.contracts\\requests\\medications\\createmedicationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{883B4D71-283B-4E07-BFA6-EB716BD4E65F}|Health.Contracts\\Health.Contracts.csproj|h:\\kolya\\grad project\\graduation project\\health.contracts\\requests\\homeservicerequests\\homeservicerequestresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{883B4D71-283B-4E07-BFA6-EB716BD4E65F}|Health.Contracts\\Health.Contracts.csproj|solutionrelative:health.contracts\\requests\\homeservicerequests\\homeservicerequestresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{883B4D71-283B-4E07-BFA6-EB716BD4E65F}|Health.Contracts\\Health.Contracts.csproj|h:\\kolya\\grad project\\graduation project\\health.contracts\\requests\\homeservicerequests\\createhomeservicerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{883B4D71-283B-4E07-BFA6-EB716BD4E65F}|Health.Contracts\\Health.Contracts.csproj|solutionrelative:health.contracts\\requests\\homeservicerequests\\createhomeservicerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{883B4D71-283B-4E07-BFA6-EB716BD4E65F}|Health.Contracts\\Health.Contracts.csproj|h:\\kolya\\grad project\\graduation project\\health.contracts\\requests\\appointments\\appointmentresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{883B4D71-283B-4E07-BFA6-EB716BD4E65F}|Health.Contracts\\Health.Contracts.csproj|solutionrelative:health.contracts\\requests\\appointments\\appointmentresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{883B4D71-283B-4E07-BFA6-EB716BD4E65F}|Health.Contracts\\Health.Contracts.csproj|h:\\kolya\\grad project\\graduation project\\health.contracts\\requests\\appointments\\createappointmentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{883B4D71-283B-4E07-BFA6-EB716BD4E65F}|Health.Contracts\\Health.Contracts.csproj|solutionrelative:health.contracts\\requests\\appointments\\createappointmentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{883B4D71-283B-4E07-BFA6-EB716BD4E65F}|Health.Contracts\\Health.Contracts.csproj|h:\\kolya\\grad project\\graduation project\\health.contracts\\requests\\nurses\\createnurserequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{883B4D71-283B-4E07-BFA6-EB716BD4E65F}|Health.Contracts\\Health.Contracts.csproj|solutionrelative:health.contracts\\requests\\nurses\\createnurserequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{883B4D71-283B-4E07-BFA6-EB716BD4E65F}|Health.Contracts\\Health.Contracts.csproj|h:\\kolya\\grad project\\graduation project\\health.contracts\\responses\\patients\\createpatientresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{883B4D71-283B-4E07-BFA6-EB716BD4E65F}|Health.Contracts\\Health.Contracts.csproj|solutionrelative:health.contracts\\responses\\patients\\createpatientresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 213,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Health.Application",
+              "DocumentMoniker": "H:\\Kolya\\Grad project\\Graduation project\\Health.Application\\Health.Application.csproj",
+              "RelativeDocumentMoniker": "Health.Application\\Health.Application.csproj",
+              "ToolTip": "H:\\Kolya\\Grad project\\Graduation project\\Health.Application\\Health.Application.csproj",
+              "RelativeToolTip": "Health.Application\\Health.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-05T14:39:33.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NotificationType.cs",
+              "DocumentMoniker": "H:\\Kolya\\Grad project\\Graduation project\\Health.Contracts\\Enums\\NotificationType.cs",
+              "RelativeDocumentMoniker": "Health.Contracts\\Enums\\NotificationType.cs",
+              "ToolTip": "H:\\Kolya\\Grad project\\Graduation project\\Health.Contracts\\Enums\\NotificationType.cs",
+              "RelativeToolTip": "Health.Contracts\\Enums\\NotificationType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T14:10:02.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeServiceStatus.cs",
+              "DocumentMoniker": "H:\\Kolya\\Grad project\\Graduation project\\Health.Contracts\\Enums\\HomeServiceStatus.cs",
+              "RelativeDocumentMoniker": "Health.Contracts\\Enums\\HomeServiceStatus.cs",
+              "ToolTip": "H:\\Kolya\\Grad project\\Graduation project\\Health.Contracts\\Enums\\HomeServiceStatus.cs",
+              "RelativeToolTip": "Health.Contracts\\Enums\\HomeServiceStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T14:09:56.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppointmentStatus.cs",
+              "DocumentMoniker": "H:\\Kolya\\Grad project\\Graduation project\\Health.Contracts\\Enums\\AppointmentStatus.cs",
+              "RelativeDocumentMoniker": "Health.Contracts\\Enums\\AppointmentStatus.cs",
+              "ToolTip": "H:\\Kolya\\Grad project\\Graduation project\\Health.Contracts\\Enums\\AppointmentStatus.cs",
+              "RelativeToolTip": "Health.Contracts\\Enums\\AppointmentStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T14:09:49.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "H:\\Kolya\\Grad project\\Graduation project\\Health.Contracts\\Enums\\UserRole.cs",
+              "RelativeDocumentMoniker": "Health.Contracts\\Enums\\UserRole.cs",
+              "ToolTip": "H:\\Kolya\\Grad project\\Graduation project\\Health.Contracts\\Enums\\UserRole.cs",
+              "RelativeToolTip": "Health.Contracts\\Enums\\UserRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T14:09:43.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "H:\\Kolya\\Grad project\\Graduation project\\Health.Contracts\\Requests\\Users\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "Health.Contracts\\Requests\\Users\\LoginRequest.cs",
+              "ToolTip": "H:\\Kolya\\Grad project\\Graduation project\\Health.Contracts\\Requests\\Users\\LoginRequest.cs",
+              "RelativeToolTip": "Health.Contracts\\Requests\\Users\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T13:57:04.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RegisterUserRequest.cs",
+              "DocumentMoniker": "H:\\Kolya\\Grad project\\Graduation project\\Health.Contracts\\Requests\\Users\\RegisterUserRequest.cs",
+              "RelativeDocumentMoniker": "Health.Contracts\\Requests\\Users\\RegisterUserRequest.cs",
+              "ToolTip": "H:\\Kolya\\Grad project\\Graduation project\\Health.Contracts\\Requests\\Users\\RegisterUserRequest.cs",
+              "RelativeToolTip": "Health.Contracts\\Requests\\Users\\RegisterUserRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T13:56:54.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserResponse.cs",
+              "DocumentMoniker": "H:\\Kolya\\Grad project\\Graduation project\\Health.Contracts\\Responses\\Users\\UserResponse.cs",
+              "RelativeDocumentMoniker": "Health.Contracts\\Responses\\Users\\UserResponse.cs",
+              "ToolTip": "H:\\Kolya\\Grad project\\Graduation project\\Health.Contracts\\Responses\\Users\\UserResponse.cs",
+              "RelativeToolTip": "Health.Contracts\\Responses\\Users\\UserResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T13:57:13.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateDoctorRequest.cs",
+              "DocumentMoniker": "H:\\Kolya\\Grad project\\Graduation project\\Health.Contracts\\Requests\\Doctors\\CreateDoctorRequest.cs",
+              "RelativeDocumentMoniker": "Health.Contracts\\Requests\\Doctors\\CreateDoctorRequest.cs",
+              "ToolTip": "H:\\Kolya\\Grad project\\Graduation project\\Health.Contracts\\Requests\\Doctors\\CreateDoctorRequest.cs",
+              "RelativeToolTip": "Health.Contracts\\Requests\\Doctors\\CreateDoctorRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T13:57:55.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DoctorResponse.cs",
+              "DocumentMoniker": "H:\\Kolya\\Grad project\\Graduation project\\Health.Contracts\\Responses\\DoctorResponse.cs",
+              "RelativeDocumentMoniker": "Health.Contracts\\Responses\\DoctorResponse.cs",
+              "ToolTip": "H:\\Kolya\\Grad project\\Graduation project\\Health.Contracts\\Responses\\DoctorResponse.cs",
+              "RelativeToolTip": "Health.Contracts\\Responses\\DoctorResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T13:58:02.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CreateMedicalRecordRequest.cs",
+              "DocumentMoniker": "H:\\Kolya\\Grad project\\Graduation project\\Health.Contracts\\Requests\\MedicalRecords\\CreateMedicalRecordRequest.cs",
+              "RelativeDocumentMoniker": "Health.Contracts\\Requests\\MedicalRecords\\CreateMedicalRecordRequest.cs",
+              "ToolTip": "H:\\Kolya\\Grad project\\Graduation project\\Health.Contracts\\Requests\\MedicalRecords\\CreateMedicalRecordRequest.cs",
+              "RelativeToolTip": "Health.Contracts\\Requests\\MedicalRecords\\CreateMedicalRecordRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T14:09:22.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SendMessageRequest.cs",
+              "DocumentMoniker": "H:\\Kolya\\Grad project\\Graduation project\\Health.Contracts\\Requests\\Chat\\SendMessageRequest.cs",
+              "RelativeDocumentMoniker": "Health.Contracts\\Requests\\Chat\\SendMessageRequest.cs",
+              "ToolTip": "H:\\Kolya\\Grad project\\Graduation project\\Health.Contracts\\Requests\\Chat\\SendMessageRequest.cs",
+              "RelativeToolTip": "Health.Contracts\\Requests\\Chat\\SendMessageRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T14:08:45.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MedicalTaskResponse.cs",
+              "DocumentMoniker": "H:\\Kolya\\Grad project\\Graduation project\\Health.Contracts\\Requests\\MedicalTasks\\MedicalTaskResponse.cs",
+              "RelativeDocumentMoniker": "Health.Contracts\\Requests\\MedicalTasks\\MedicalTaskResponse.cs",
+              "ToolTip": "H:\\Kolya\\Grad project\\Graduation project\\Health.Contracts\\Requests\\MedicalTasks\\MedicalTaskResponse.cs",
+              "RelativeToolTip": "Health.Contracts\\Requests\\MedicalTasks\\MedicalTaskResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T14:05:35.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CreateMedicalTaskRequest.cs",
+              "DocumentMoniker": "H:\\Kolya\\Grad project\\Graduation project\\Health.Contracts\\Requests\\MedicalTasks\\CreateMedicalTaskRequest.cs",
+              "RelativeDocumentMoniker": "Health.Contracts\\Requests\\MedicalTasks\\CreateMedicalTaskRequest.cs",
+              "ToolTip": "H:\\Kolya\\Grad project\\Graduation project\\Health.Contracts\\Requests\\MedicalTasks\\CreateMedicalTaskRequest.cs",
+              "RelativeToolTip": "Health.Contracts\\Requests\\MedicalTasks\\CreateMedicalTaskRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T14:05:29.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MedicationResponse.cs",
+              "DocumentMoniker": "H:\\Kolya\\Grad project\\Graduation project\\Health.Contracts\\Requests\\Medications\\MedicationResponse.cs",
+              "RelativeDocumentMoniker": "Health.Contracts\\Requests\\Medications\\MedicationResponse.cs",
+              "ToolTip": "H:\\Kolya\\Grad project\\Graduation project\\Health.Contracts\\Requests\\Medications\\MedicationResponse.cs",
+              "RelativeToolTip": "Health.Contracts\\Requests\\Medications\\MedicationResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T14:05:14.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CreateMedicationRequest.cs",
+              "DocumentMoniker": "H:\\Kolya\\Grad project\\Graduation project\\Health.Contracts\\Requests\\Medications\\CreateMedicationRequest.cs",
+              "RelativeDocumentMoniker": "Health.Contracts\\Requests\\Medications\\CreateMedicationRequest.cs",
+              "ToolTip": "H:\\Kolya\\Grad project\\Graduation project\\Health.Contracts\\Requests\\Medications\\CreateMedicationRequest.cs",
+              "RelativeToolTip": "Health.Contracts\\Requests\\Medications\\CreateMedicationRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T14:05:07.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PrescriptionResponse.cs",
+              "DocumentMoniker": "H:\\Kolya\\Grad project\\Graduation project\\Health.Contracts\\Requests\\Prescriptions\\PrescriptionResponse.cs",
+              "RelativeDocumentMoniker": "Health.Contracts\\Requests\\Prescriptions\\PrescriptionResponse.cs",
+              "ToolTip": "H:\\Kolya\\Grad project\\Graduation project\\Health.Contracts\\Requests\\Prescriptions\\PrescriptionResponse.cs",
+              "RelativeToolTip": "Health.Contracts\\Requests\\Prescriptions\\PrescriptionResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T14:04:42.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UploadPrescriptionRequest.cs",
+              "DocumentMoniker": "H:\\Kolya\\Grad project\\Graduation project\\Health.Contracts\\Requests\\Prescriptions\\UploadPrescriptionRequest.cs",
+              "RelativeDocumentMoniker": "Health.Contracts\\Requests\\Prescriptions\\UploadPrescriptionRequest.cs",
+              "ToolTip": "H:\\Kolya\\Grad project\\Graduation project\\Health.Contracts\\Requests\\Prescriptions\\UploadPrescriptionRequest.cs",
+              "RelativeToolTip": "Health.Contracts\\Requests\\Prescriptions\\UploadPrescriptionRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T14:04:30.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "NurseResponse.cs",
+              "DocumentMoniker": "H:\\Kolya\\Grad project\\Graduation project\\Health.Contracts\\Requests\\Nurses\\NurseResponse.cs",
+              "RelativeDocumentMoniker": "Health.Contracts\\Requests\\Nurses\\NurseResponse.cs",
+              "ToolTip": "H:\\Kolya\\Grad project\\Graduation project\\Health.Contracts\\Requests\\Nurses\\NurseResponse.cs",
+              "RelativeToolTip": "Health.Contracts\\Requests\\Nurses\\NurseResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T13:58:25.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "HomeServiceRequestResponse.cs",
+              "DocumentMoniker": "H:\\Kolya\\Grad project\\Graduation project\\Health.Contracts\\Requests\\HomeServiceRequests\\HomeServiceRequestResponse.cs",
+              "RelativeDocumentMoniker": "Health.Contracts\\Requests\\HomeServiceRequests\\HomeServiceRequestResponse.cs",
+              "ToolTip": "H:\\Kolya\\Grad project\\Graduation project\\Health.Contracts\\Requests\\HomeServiceRequests\\HomeServiceRequestResponse.cs",
+              "RelativeToolTip": "Health.Contracts\\Requests\\HomeServiceRequests\\HomeServiceRequestResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T14:04:14.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CreateHomeServiceRequest.cs",
+              "DocumentMoniker": "H:\\Kolya\\Grad project\\Graduation project\\Health.Contracts\\Requests\\HomeServiceRequests\\CreateHomeServiceRequest.cs",
+              "RelativeDocumentMoniker": "Health.Contracts\\Requests\\HomeServiceRequests\\CreateHomeServiceRequest.cs",
+              "ToolTip": "H:\\Kolya\\Grad project\\Graduation project\\Health.Contracts\\Requests\\HomeServiceRequests\\CreateHomeServiceRequest.cs",
+              "RelativeToolTip": "Health.Contracts\\Requests\\HomeServiceRequests\\CreateHomeServiceRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T14:04:08.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AppointmentResponse.cs",
+              "DocumentMoniker": "H:\\Kolya\\Grad project\\Graduation project\\Health.Contracts\\Requests\\Appointments\\AppointmentResponse.cs",
+              "RelativeDocumentMoniker": "Health.Contracts\\Requests\\Appointments\\AppointmentResponse.cs",
+              "ToolTip": "H:\\Kolya\\Grad project\\Graduation project\\Health.Contracts\\Requests\\Appointments\\AppointmentResponse.cs",
+              "RelativeToolTip": "Health.Contracts\\Requests\\Appointments\\AppointmentResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T14:02:55.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CreateAppointmentRequest.cs",
+              "DocumentMoniker": "H:\\Kolya\\Grad project\\Graduation project\\Health.Contracts\\Requests\\Appointments\\CreateAppointmentRequest.cs",
+              "RelativeDocumentMoniker": "Health.Contracts\\Requests\\Appointments\\CreateAppointmentRequest.cs",
+              "ToolTip": "H:\\Kolya\\Grad project\\Graduation project\\Health.Contracts\\Requests\\Appointments\\CreateAppointmentRequest.cs",
+              "RelativeToolTip": "Health.Contracts\\Requests\\Appointments\\CreateAppointmentRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T14:02:45.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CreateNurseRequest.cs",
+              "DocumentMoniker": "H:\\Kolya\\Grad project\\Graduation project\\Health.Contracts\\Requests\\Nurses\\CreateNurseRequest.cs",
+              "RelativeDocumentMoniker": "Health.Contracts\\Requests\\Nurses\\CreateNurseRequest.cs",
+              "ToolTip": "H:\\Kolya\\Grad project\\Graduation project\\Health.Contracts\\Requests\\Nurses\\CreateNurseRequest.cs",
+              "RelativeToolTip": "Health.Contracts\\Requests\\Nurses\\CreateNurseRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T13:58:18.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CreatePatientResponse.cs",
+              "DocumentMoniker": "H:\\Kolya\\Grad project\\Graduation project\\Health.Contracts\\Responses\\Patients\\CreatePatientResponse.cs",
+              "RelativeDocumentMoniker": "Health.Contracts\\Responses\\Patients\\CreatePatientResponse.cs",
+              "ToolTip": "H:\\Kolya\\Grad project\\Graduation project\\Health.Contracts\\Responses\\Patients\\CreatePatientResponse.cs",
+              "RelativeToolTip": "Health.Contracts\\Responses\\Patients\\CreatePatientResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T13:57:38.573Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
