@@ -1,0 +1,11 @@
+H:\Kolya\Grad project\Graduation project\Health.Contracts\bin\Debug\net8.0\Health.Contracts.deps.json
+H:\Kolya\Grad project\Graduation project\Health.Contracts\bin\Debug\net8.0\Health.Contracts.dll
+H:\Kolya\Grad project\Graduation project\Health.Contracts\bin\Debug\net8.0\Health.Contracts.pdb
+H:\Kolya\Grad project\Graduation project\Health.Contracts\obj\Debug\net8.0\Health.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+H:\Kolya\Grad project\Graduation project\Health.Contracts\obj\Debug\net8.0\Health.Contracts.AssemblyInfoInputs.cache
+H:\Kolya\Grad project\Graduation project\Health.Contracts\obj\Debug\net8.0\Health.Contracts.AssemblyInfo.cs
+H:\Kolya\Grad project\Graduation project\Health.Contracts\obj\Debug\net8.0\Health.Contracts.csproj.CoreCompileInputs.cache
+H:\Kolya\Grad project\Graduation project\Health.Contracts\obj\Debug\net8.0\Health.Contracts.dll
+H:\Kolya\Grad project\Graduation project\Health.Contracts\obj\Debug\net8.0\refint\Health.Contracts.dll
+H:\Kolya\Grad project\Graduation project\Health.Contracts\obj\Debug\net8.0\Health.Contracts.pdb
+H:\Kolya\Grad project\Graduation project\Health.Contracts\obj\Debug\net8.0\ref\Health.Contracts.dll

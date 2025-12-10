@@ -1,0 +1,14 @@
+H:\Kolya\Grad project\Graduation project\Health.Application\bin\Debug\net8.0\Health.Application.deps.json
+H:\Kolya\Grad project\Graduation project\Health.Application\bin\Debug\net8.0\Health.Application.runtimeconfig.json
+H:\Kolya\Grad project\Graduation project\Health.Application\bin\Debug\net8.0\Health.Application.dll
+H:\Kolya\Grad project\Graduation project\Health.Application\bin\Debug\net8.0\Health.Application.pdb
+H:\Kolya\Grad project\Graduation project\Health.Application\obj\Debug\net8.0\Health.Application.csproj.AssemblyReference.cache
+H:\Kolya\Grad project\Graduation project\Health.Application\obj\Debug\net8.0\Health.Application.GeneratedMSBuildEditorConfig.editorconfig
+H:\Kolya\Grad project\Graduation project\Health.Application\obj\Debug\net8.0\Health.Application.AssemblyInfoInputs.cache
+H:\Kolya\Grad project\Graduation project\Health.Application\obj\Debug\net8.0\Health.Application.AssemblyInfo.cs
+H:\Kolya\Grad project\Graduation project\Health.Application\obj\Debug\net8.0\Health.Application.csproj.CoreCompileInputs.cache
+H:\Kolya\Grad project\Graduation project\Health.Application\obj\Debug\net8.0\Health.Application.dll
+H:\Kolya\Grad project\Graduation project\Health.Application\obj\Debug\net8.0\refint\Health.Application.dll
+H:\Kolya\Grad project\Graduation project\Health.Application\obj\Debug\net8.0\Health.Application.pdb
+H:\Kolya\Grad project\Graduation project\Health.Application\obj\Debug\net8.0\Health.Application.genruntimeconfig.cache
+H:\Kolya\Grad project\Graduation project\Health.Application\obj\Debug\net8.0\ref\Health.Application.dll
