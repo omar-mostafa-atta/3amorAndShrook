@@ -16,17 +16,23 @@ namespace Health.Application.Services
         private readonly UserManager<User> _userManager;
         private readonly SignInManager<User> _signInManager;
         private readonly ITokenService _tokenService;
-        private readonly IEmailService _emailService; // For sending reset links
+        private readonly IEmailService _emailService; 
+        private readonly WateenDbContext _dbContext;
 
-        public AuthService(UserManager<User> userManager, SignInManager<User> signInManager, ITokenService tokenService, IEmailService emailService)
+        public AuthService(UserManager<User> userManager, 
+            SignInManager<User> signInManager,
+            ITokenService tokenService,
+            IEmailService emailService,
+            WateenDbContext dbContext)
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _tokenService = tokenService;
             _emailService = emailService;
+            _dbContext= dbContext;
         }
 
-        public async Task<AuthResponseDto> RegisterAsync(RegisterRequestDto request)
+        public async Task<AuthResponseDto> RegisterPatientAsync(RegisterPatientRequestDto request)
         {
             var userExists = await _userManager.FindByEmailAsync(request.Email);
             if (userExists != null)
@@ -37,35 +43,25 @@ namespace Health.Application.Services
             var user = new User
             {
                 Email = request.Email,
-                UserName = request.Email, // Use email as username
                 FirstName = request.FirstName,
+                UserName = request.FirstName + request.LastName,
                 LastName = request.LastName,
-                EmailConfirmed = true // For simplicity, confirm email here. In production, send a confirmation email.
+                EmailConfirmed = true
             };
 
-            var result = await _userManager.CreateAsync(user, request.Password);
+            var result = await _userManager.CreateAsync(user, "Patient");
 
             if (result.Succeeded)
             {
-                // 1. Assign Role
-                await _userManager.AddToRoleAsync(user, request.Role);
+                await _userManager.AddToRoleAsync(user, request.Password);
 
-                // 2. Create the specific entity (Patient, Doctor, or Nurse)
-                switch (request.Role)
-                {
-                    case "Patient":
-                        user.Patient = new Patient();
-                        break;
-                    case "Doctor":
-                        user.Doctor = new Doctor();
-                        break;
-                    case "Nurse":
-                        user.Nurse = new Nurse();
-                        break;
-                }
-                // NOTE: You'll need to save changes to the database context here to persist the associated entity.
+               user.Patient = new Patient();
+ 
 
-                // 3. Generate Token and Response
+                _dbContext.Users.Add(user);
+                await _dbContext.SaveChangesAsync();
+
+               
                 return new AuthResponseDto
                 {
                     UserId = user.Id,
@@ -84,6 +80,69 @@ namespace Health.Application.Services
             };
         }
 
+
+        public async Task<AuthResponseDto> RegisterDoctorAsync(RegisterDoctorRequestDto request)
+        {
+            var userExists = await _userManager.FindByEmailAsync(request.Email);
+            if (userExists != null)
+            {
+                return new AuthResponseDto { IsSuccess = false, Errors = new[] { "User with this email already exists." } };
+            }
+
+       
+            var user = new User
+            {
+                Email = request.Email,
+                UserName = request.Email,
+                FirstName = request.FirstName,
+                LastName = request.LastName,
+                PhoneNumber = request.DoctorPhoneNumber.ToString(), 
+                EmailConfirmed = true
+            };
+
+            var result = await _userManager.CreateAsync(user, request.Password);
+
+            if (result.Succeeded)
+            {
+              
+                const string doctorRole = "Doctor";
+                await _userManager.AddToRoleAsync(user, doctorRole);
+
+                var doctor = new Doctor
+                {
+                  
+                    Specialization = request.Specialization,
+                    LicenseNumber = request.LicenseNumber,
+                    Bio = request.Bio,
+                    PhoneNumber = request.DoctorPhoneNumber,
+                    AvailabilitySchedule = request.AvailabilitySchedule,
+                    User = user
+                };
+
+                
+                _dbContext.Doctors.Add(doctor);
+
+          
+                await _dbContext.SaveChangesAsync();
+
+                // 4. Generate Token and Response
+                return new AuthResponseDto
+                {
+                    UserId = user.Id,
+                    Email = user.Email,
+                    FirstName = user.FirstName,
+                    LastName = user.LastName,
+                    Token = await _tokenService.CreateToken(user),
+                    IsSuccess = true
+                };
+            }
+
+            return new AuthResponseDto
+            {
+                IsSuccess = false,
+                Errors = result.Errors.Select(e => e.Description)
+            };
+        }
         public async Task<AuthResponseDto> LoginAsync(LoginRequestDto request)
         {
             var user = await _userManager.FindByEmailAsync(request.Email);
@@ -114,13 +173,11 @@ namespace Health.Application.Services
         public async Task<bool> ForgotPasswordAsync(ForgotPasswordRequestDto request)
         {
             var user = await _userManager.FindByEmailAsync(request.Email);
-            if (user == null) return true; // Avoid user enumeration
+            if (user == null) return true;
 
             var token = await _userManager.GeneratePasswordResetTokenAsync(user);
 
-            // In a real application, you would generate a secure URL containing the token 
-            // and the user's ID, and send it to the user's email.
-            // Example link: /reset-password?userId={user.Id}&token={token}
+          
 
             await _emailService.SendPasswordResetEmailAsync(user.Email, user.Id.ToString(), token);
 
@@ -132,12 +189,8 @@ namespace Health.Application.Services
             var user = await _userManager.FindByIdAsync(request.UserId);
             if (user == null) return false;
 
-            // The token needs to be URL-decoded if it was sent in a query string.
-            // Replace spaces with '+' for base64 encoding if needed.
             var decodedToken = request.Token;
-            // Example: var decodedToken = WebEncoders.Base64UrlDecode(request.Token); 
-            // or simply: var decodedToken = request.Token.Replace(' ', '+'); if it was URL-encoded.
-
+          
             var result = await _userManager.ResetPasswordAsync(user, decodedToken, request.NewPassword);
 
             return result.Succeeded;

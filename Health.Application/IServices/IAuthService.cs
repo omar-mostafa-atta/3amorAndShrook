@@ -10,7 +10,8 @@ namespace Health.Application.IServices
 {
     public interface IAuthService
     {
-        Task<AuthResponseDto> RegisterAsync(RegisterRequestDto request);
+        Task<AuthResponseDto> RegisterPatientAsync(RegisterPatientRequestDto request);
+        Task<AuthResponseDto> RegisterDoctorAsync(RegisterDoctorRequestDto request);
         Task<AuthResponseDto> LoginAsync(LoginRequestDto request);
         Task<bool> ForgotPasswordAsync(ForgotPasswordRequestDto request);
         Task<bool> ResetPasswordAsync(ResetPasswordRequestDto request);

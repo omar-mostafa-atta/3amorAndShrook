@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Health.Contracts.Requests
 {
-    public class RegisterDoctorRequestDto : RegisterRequestDto
+    public class RegisterDoctorRequestDto : RegisterPatientRequestDto
     {
         [Required]
         public string Specialization { get; set; }

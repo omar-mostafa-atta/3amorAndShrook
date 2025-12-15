@@ -19,11 +19,11 @@ namespace Graduation_project.Controllers
         }
 
         // POST: api/Auth/register
-        [HttpPost("register")]
+        [HttpPost("register/Patient")]
         [AllowAnonymous]
-        public async Task<IActionResult> Register([FromBody] RegisterRequestDto model)
+        public async Task<IActionResult> RegisterPatient([FromBody] RegisterPatientRequestDto model)
         {
-            var response = await _authService.RegisterAsync(model);
+            var response = await _authService.RegisterPatientAsync(model);
 
             if (response.IsSuccess)
             {
@@ -34,6 +34,23 @@ namespace Graduation_project.Controllers
 
             return BadRequest(new { Errors = response.Errors });
         }
+
+        // POST: api/Auth/register/doctor
+        [HttpPost("register/doctor")]
+        [AllowAnonymous]
+        public async Task<IActionResult> RegisterDoctor([FromBody] RegisterDoctorRequestDto model)
+        {
+            var response = await _authService.RegisterDoctorAsync(model);
+
+            if (response.IsSuccess)
+            {
+                response.Errors = null;
+                return Ok(response);
+            }
+
+            return BadRequest(new { Errors = response.Errors });
+        }
+
 
         // POST: api/Auth/login
         [HttpPost("login")]

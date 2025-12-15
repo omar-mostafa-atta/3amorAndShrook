@@ -5,7 +5,7 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/Auth/register": {
+    "/api/Auth/register/Patient": {
       "post": {
         "tags": [
           "Auth"
@@ -14,17 +14,48 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/RegisterRequestDto"
+                "$ref": "#/components/schemas/RegisterPatientRequestDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/RegisterRequestDto"
+                "$ref": "#/components/schemas/RegisterPatientRequestDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/RegisterRequestDto"
+                "$ref": "#/components/schemas/RegisterPatientRequestDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Auth/register/doctor": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegisterDoctorRequestDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegisterDoctorRequestDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegisterDoctorRequestDto"
               }
             }
           }
@@ -177,14 +208,17 @@
         },
         "additionalProperties": false
       },
-      "RegisterRequestDto": {
+      "RegisterDoctorRequestDto": {
         "required": [
+          "availabilitySchedule",
           "confirmPassword",
+          "doctorPhoneNumber",
           "email",
           "firstName",
           "lastName",
+          "licenseNumber",
           "password",
-          "role"
+          "specialization"
         ],
         "type": "object",
         "properties": {
@@ -209,9 +243,58 @@
             "minLength": 1,
             "type": "string"
           },
-          "role": {
+          "specialization": {
             "minLength": 1,
-            "pattern": "^(Patient|Doctor|Nurse)$",
+            "type": "string"
+          },
+          "licenseNumber": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "bio": {
+            "type": "string",
+            "nullable": true
+          },
+          "doctorPhoneNumber": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "availabilitySchedule": {
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "RegisterPatientRequestDto": {
+        "required": [
+          "confirmPassword",
+          "email",
+          "firstName",
+          "lastName",
+          "password"
+        ],
+        "type": "object",
+        "properties": {
+          "firstName": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "lastName": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "email": {
+            "minLength": 1,
+            "type": "string",
+            "format": "email"
+          },
+          "password": {
+            "minLength": 6,
+            "type": "string"
+          },
+          "confirmPassword": {
+            "minLength": 1,
             "type": "string"
           }
         },
