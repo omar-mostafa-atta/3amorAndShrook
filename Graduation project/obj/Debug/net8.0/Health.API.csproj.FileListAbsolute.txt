@@ -142,3 +142,6 @@ H:\Kolya\Grad project\Graduation project\Graduation project\obj\Debug\net8.0\ref
 H:\Kolya\Grad project\Graduation project\Graduation project\obj\Debug\net8.0\Health.API.pdb
 H:\Kolya\Grad project\Graduation project\Graduation project\obj\Debug\net8.0\Health.API.genruntimeconfig.cache
 H:\Kolya\Grad project\Graduation project\Graduation project\obj\Debug\net8.0\ref\Health.API.dll
+H:\Kolya\Grad project\Graduation project\Graduation project\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Google.dll
+H:\Kolya\Grad project\Graduation project\Graduation project\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+H:\Kolya\Grad project\Graduation project\Graduation project\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

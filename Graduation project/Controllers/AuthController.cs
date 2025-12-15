@@ -1,0 +1,90 @@
+﻿using Health.Application.IServices;
+using Health.Contracts.Requests;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
+
+namespace Graduation_project.Controllers
+{
+    [ApiController]
+    [Route("api/[controller]")]
+    public class AuthController : ControllerBase
+    {
+        private readonly IAuthService _authService;
+
+        public AuthController(IAuthService authService)
+        {
+            _authService = authService;
+        }
+
+        // POST: api/Auth/register
+        [HttpPost("register")]
+        [AllowAnonymous]
+        public async Task<IActionResult> Register([FromBody] RegisterRequestDto model)
+        {
+            var response = await _authService.RegisterAsync(model);
+
+            if (response.IsSuccess)
+            {
+              
+                response.Errors = null;
+                return Ok(response);
+            }
+
+            return BadRequest(new { Errors = response.Errors });
+        }
+
+        // POST: api/Auth/login
+        [HttpPost("login")]
+        [AllowAnonymous]
+        public async Task<IActionResult> Login([FromBody] LoginRequestDto model)
+        {
+            var response = await _authService.LoginAsync(model);
+
+            if (response.IsSuccess)
+            {
+                response.Errors = null;
+                return Ok(response);
+            }
+
+            return Unauthorized(new { Errors = response.Errors });
+        }
+
+        // POST: api/Auth/forgot-password
+        [HttpPost("forgot-password")]
+        [AllowAnonymous]
+        public async Task<IActionResult> ForgotPassword([FromBody] ForgotPasswordRequestDto model)
+        {
+            await _authService.ForgotPasswordAsync(model);
+
+           
+            return Ok(new { Message = "If a user with that email exists, a password reset link has been sent." });
+        }
+
+        // POST: api/Auth/reset-password
+        [HttpPost("reset-password")]
+        [AllowAnonymous]
+        public async Task<IActionResult> ResetPassword([FromBody] ResetPasswordRequestDto model)
+        {
+            var isSuccess = await _authService.ResetPasswordAsync(model);
+
+            if (isSuccess)
+            {
+                return Ok(new { Message = "Password has been successfully reset." });
+            }
+
+            return BadRequest(new { Message = "Invalid user ID or token." });
+        }
+
+        // Example protected endpoint (optional, for testing)
+        [HttpGet("protected")]
+        [Authorize(Roles = "Admin,Doctor")]
+        public IActionResult ProtectedEndpoint()
+        {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var role = User.FindFirstValue(ClaimTypes.Role);
+            return Ok($"Access granted! User ID: {userId}, Role: {role}");
+        }
+    }
+}

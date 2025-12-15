@@ -12,3 +12,6 @@ H:\Kolya\Grad project\Graduation project\Health.Application\obj\Debug\net8.0\ref
 H:\Kolya\Grad project\Graduation project\Health.Application\obj\Debug\net8.0\Health.Application.pdb
 H:\Kolya\Grad project\Graduation project\Health.Application\obj\Debug\net8.0\Health.Application.genruntimeconfig.cache
 H:\Kolya\Grad project\Graduation project\Health.Application\obj\Debug\net8.0\ref\Health.Application.dll
+H:\Kolya\Grad project\Graduation project\Health.Application\bin\Debug\net8.0\Health.Contracts.dll
+H:\Kolya\Grad project\Graduation project\Health.Application\bin\Debug\net8.0\Health.Contracts.pdb
+H:\Kolya\Grad project\Graduation project\Health.Application\obj\Debug\net8.0\Health.A.B83D07D7.Up2Date

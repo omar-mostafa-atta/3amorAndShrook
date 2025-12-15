@@ -3,56 +3,80 @@
   "WorkspaceRootPath": "H:\\Kolya\\Grad project\\Graduation project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F5A5BC0E-CB87-4CEB-987F-34D3B36E7A78}|Health.Application\\Health.Application.csproj|h:\\kolya\\grad project\\graduation project\\health.application\\wateendbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5A5BC0E-CB87-4CEB-987F-34D3B36E7A78}|Health.Application\\Health.Application.csproj|solutionrelative:health.application\\wateendbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F81E0E83-2624-431F-8D74-943B7399739D}|Graduation project\\Health.API.csproj|h:\\kolya\\grad project\\graduation project\\graduation project\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F81E0E83-2624-431F-8D74-943B7399739D}|Graduation project\\Health.API.csproj|solutionrelative:graduation project\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5A5BC0E-CB87-4CEB-987F-34D3B36E7A78}|Health.Application\\Health.Application.csproj|h:\\kolya\\grad project\\graduation project\\health.application\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5A5BC0E-CB87-4CEB-987F-34D3B36E7A78}|Health.Application\\Health.Application.csproj|solutionrelative:health.application\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5A5BC0E-CB87-4CEB-987F-34D3B36E7A78}|Health.Application\\Health.Application.csproj|h:\\kolya\\grad project\\graduation project\\health.application\\models\\nurse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5A5BC0E-CB87-4CEB-987F-34D3B36E7A78}|Health.Application\\Health.Application.csproj|solutionrelative:health.application\\models\\nurse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5A5BC0E-CB87-4CEB-987F-34D3B36E7A78}|Health.Application\\Health.Application.csproj|h:\\kolya\\grad project\\graduation project\\health.application\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5A5BC0E-CB87-4CEB-987F-34D3B36E7A78}|Health.Application\\Health.Application.csproj|solutionrelative:health.application\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5A5BC0E-CB87-4CEB-987F-34D3B36E7A78}|Health.Application\\Health.Application.csproj|h:\\kolya\\grad project\\graduation project\\health.application\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5A5BC0E-CB87-4CEB-987F-34D3B36E7A78}|Health.Application\\Health.Application.csproj|solutionrelative:health.application\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5A5BC0E-CB87-4CEB-987F-34D3B36E7A78}|Health.Application\\Health.Application.csproj|h:\\kolya\\grad project\\graduation project\\health.application\\models\\medication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5A5BC0E-CB87-4CEB-987F-34D3B36E7A78}|Health.Application\\Health.Application.csproj|solutionrelative:health.application\\models\\medication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5A5BC0E-CB87-4CEB-987F-34D3B36E7A78}|Health.Application\\Health.Application.csproj|h:\\kolya\\grad project\\graduation project\\health.application\\models\\medicaltask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5A5BC0E-CB87-4CEB-987F-34D3B36E7A78}|Health.Application\\Health.Application.csproj|solutionrelative:health.application\\models\\medicaltask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5A5BC0E-CB87-4CEB-987F-34D3B36E7A78}|Health.Application\\Health.Application.csproj|h:\\kolya\\grad project\\graduation project\\health.application\\models\\medicalrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5A5BC0E-CB87-4CEB-987F-34D3B36E7A78}|Health.Application\\Health.Application.csproj|solutionrelative:health.application\\models\\medicalrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5A5BC0E-CB87-4CEB-987F-34D3B36E7A78}|Health.Application\\Health.Application.csproj|h:\\kolya\\grad project\\graduation project\\health.application\\models\\homeservicerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5A5BC0E-CB87-4CEB-987F-34D3B36E7A78}|Health.Application\\Health.Application.csproj|solutionrelative:health.application\\models\\homeservicerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{883B4D71-283B-4E07-BFA6-EB716BD4E65F}|Health.Contracts\\Health.Contracts.csproj|h:\\kolya\\grad project\\graduation project\\health.contracts\\requests\\registerdoctorrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{883B4D71-283B-4E07-BFA6-EB716BD4E65F}|Health.Contracts\\Health.Contracts.csproj|solutionrelative:health.contracts\\requests\\registerdoctorrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F5A5BC0E-CB87-4CEB-987F-34D3B36E7A78}|Health.Application\\Health.Application.csproj|h:\\kolya\\grad project\\graduation project\\health.application\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F5A5BC0E-CB87-4CEB-987F-34D3B36E7A78}|Health.Application\\Health.Application.csproj|solutionrelative:health.application\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5A5BC0E-CB87-4CEB-987F-34D3B36E7A78}|Health.Application\\Health.Application.csproj|h:\\kolya\\grad project\\graduation project\\health.application\\models\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5A5BC0E-CB87-4CEB-987F-34D3B36E7A78}|Health.Application\\Health.Application.csproj|solutionrelative:health.application\\models\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F5A5BC0E-CB87-4CEB-987F-34D3B36E7A78}|Health.Application\\Health.Application.csproj|h:\\kolya\\grad project\\graduation project\\health.application\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5A5BC0E-CB87-4CEB-987F-34D3B36E7A78}|Health.Application\\Health.Application.csproj|solutionrelative:health.application\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5A5BC0E-CB87-4CEB-987F-34D3B36E7A78}|Health.Application\\Health.Application.csproj|h:\\kolya\\grad project\\graduation project\\health.application\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5A5BC0E-CB87-4CEB-987F-34D3B36E7A78}|Health.Application\\Health.Application.csproj|solutionrelative:health.application\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F5A5BC0E-CB87-4CEB-987F-34D3B36E7A78}|Health.Application\\Health.Application.csproj|h:\\kolya\\grad project\\graduation project\\health.application\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5A5BC0E-CB87-4CEB-987F-34D3B36E7A78}|Health.Application\\Health.Application.csproj|solutionrelative:health.application\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5A5BC0E-CB87-4CEB-987F-34D3B36E7A78}|Health.Application\\Health.Application.csproj|h:\\kolya\\grad project\\graduation project\\health.application\\iservices\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5A5BC0E-CB87-4CEB-987F-34D3B36E7A78}|Health.Application\\Health.Application.csproj|solutionrelative:health.application\\iservices\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F81E0E83-2624-431F-8D74-943B7399739D}|Graduation project\\Health.API.csproj|h:\\kolya\\grad project\\graduation project\\graduation project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F81E0E83-2624-431F-8D74-943B7399739D}|Graduation project\\Health.API.csproj|solutionrelative:graduation project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5A5BC0E-CB87-4CEB-987F-34D3B36E7A78}|Health.Application\\Health.Application.csproj|h:\\kolya\\grad project\\graduation project\\health.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5A5BC0E-CB87-4CEB-987F-34D3B36E7A78}|Health.Application\\Health.Application.csproj|solutionrelative:health.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5A5BC0E-CB87-4CEB-987F-34D3B36E7A78}|Health.Application\\Health.Application.csproj|h:\\kolya\\grad project\\graduation project\\health.application\\iservices\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5A5BC0E-CB87-4CEB-987F-34D3B36E7A78}|Health.Application\\Health.Application.csproj|solutionrelative:health.application\\iservices\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5A5BC0E-CB87-4CEB-987F-34D3B36E7A78}|Health.Application\\Health.Application.csproj|h:\\kolya\\grad project\\graduation project\\health.application\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5A5BC0E-CB87-4CEB-987F-34D3B36E7A78}|Health.Application\\Health.Application.csproj|solutionrelative:health.application\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5A5BC0E-CB87-4CEB-987F-34D3B36E7A78}|Health.Application\\Health.Application.csproj|h:\\kolya\\grad project\\graduation project\\health.application\\iservices\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5A5BC0E-CB87-4CEB-987F-34D3B36E7A78}|Health.Application\\Health.Application.csproj|solutionrelative:health.application\\iservices\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F81E0E83-2624-431F-8D74-943B7399739D}|Graduation project\\Health.API.csproj|h:\\kolya\\grad project\\graduation project\\graduation project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F81E0E83-2624-431F-8D74-943B7399739D}|Graduation project\\Health.API.csproj|solutionrelative:graduation project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{883B4D71-283B-4E07-BFA6-EB716BD4E65F}|Health.Contracts\\Health.Contracts.csproj|h:\\kolya\\grad project\\graduation project\\health.contracts\\requests\\resetpasswordrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{883B4D71-283B-4E07-BFA6-EB716BD4E65F}|Health.Contracts\\Health.Contracts.csproj|solutionrelative:health.contracts\\requests\\resetpasswordrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{883B4D71-283B-4E07-BFA6-EB716BD4E65F}|Health.Contracts\\Health.Contracts.csproj|h:\\kolya\\grad project\\graduation project\\health.contracts\\requests\\forgotpasswordrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{883B4D71-283B-4E07-BFA6-EB716BD4E65F}|Health.Contracts\\Health.Contracts.csproj|solutionrelative:health.contracts\\requests\\forgotpasswordrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{883B4D71-283B-4E07-BFA6-EB716BD4E65F}|Health.Contracts\\Health.Contracts.csproj|h:\\kolya\\grad project\\graduation project\\health.contracts\\responses\\users\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{883B4D71-283B-4E07-BFA6-EB716BD4E65F}|Health.Contracts\\Health.Contracts.csproj|solutionrelative:health.contracts\\responses\\users\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{883B4D71-283B-4E07-BFA6-EB716BD4E65F}|Health.Contracts\\Health.Contracts.csproj|h:\\kolya\\grad project\\graduation project\\health.contracts\\requests\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{883B4D71-283B-4E07-BFA6-EB716BD4E65F}|Health.Contracts\\Health.Contracts.csproj|solutionrelative:health.contracts\\requests\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{883B4D71-283B-4E07-BFA6-EB716BD4E65F}|Health.Contracts\\Health.Contracts.csproj|h:\\kolya\\grad project\\graduation project\\health.contracts\\requests\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{883B4D71-283B-4E07-BFA6-EB716BD4E65F}|Health.Contracts\\Health.Contracts.csproj|solutionrelative:health.contracts\\requests\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5A5BC0E-CB87-4CEB-987F-34D3B36E7A78}|Health.Application\\Health.Application.csproj|h:\\kolya\\grad project\\graduation project\\health.application\\models\\applicationrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5A5BC0E-CB87-4CEB-987F-34D3B36E7A78}|Health.Application\\Health.Application.csproj|solutionrelative:health.application\\models\\applicationrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5A5BC0E-CB87-4CEB-987F-34D3B36E7A78}|Health.Application\\Health.Application.csproj|h:\\kolya\\grad project\\graduation project\\health.application\\models\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5A5BC0E-CB87-4CEB-987F-34D3B36E7A78}|Health.Application\\Health.Application.csproj|solutionrelative:health.application\\models\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,7 +86,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 213,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,171 +94,249 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "WateenDbContext.cs",
-              "DocumentMoniker": "H:\\Kolya\\Grad project\\Graduation project\\Health.Application\\WateenDbContext.cs",
-              "RelativeDocumentMoniker": "Health.Application\\WateenDbContext.cs",
-              "ToolTip": "H:\\Kolya\\Grad project\\Graduation project\\Health.Application\\WateenDbContext.cs",
-              "RelativeToolTip": "Health.Application\\WateenDbContext.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAlwBcAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "RegisterDoctorRequestDto.cs",
+              "DocumentMoniker": "H:\\Kolya\\Grad project\\Graduation project\\Health.Contracts\\Requests\\RegisterDoctorRequestDto.cs",
+              "RelativeDocumentMoniker": "Health.Contracts\\Requests\\RegisterDoctorRequestDto.cs",
+              "ToolTip": "H:\\Kolya\\Grad project\\Graduation project\\Health.Contracts\\Requests\\RegisterDoctorRequestDto.cs",
+              "RelativeToolTip": "Health.Contracts\\Requests\\RegisterDoctorRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T13:06:11.749Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Doctor.cs",
-              "DocumentMoniker": "H:\\Kolya\\Grad project\\Graduation project\\Health.Application\\Models\\Doctor.cs",
-              "RelativeDocumentMoniker": "Health.Application\\Models\\Doctor.cs",
-              "ToolTip": "H:\\Kolya\\Grad project\\Graduation project\\Health.Application\\Models\\Doctor.cs",
-              "RelativeToolTip": "Health.Application\\Models\\Doctor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T13:02:54.293Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "HomeServiceRequest.cs",
-              "DocumentMoniker": "H:\\Kolya\\Grad project\\Graduation project\\Health.Application\\Models\\HomeServiceRequest.cs",
-              "RelativeDocumentMoniker": "Health.Application\\Models\\HomeServiceRequest.cs",
-              "ToolTip": "H:\\Kolya\\Grad project\\Graduation project\\Health.Application\\Models\\HomeServiceRequest.cs",
-              "RelativeToolTip": "Health.Application\\Models\\HomeServiceRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T13:02:54.684Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MedicalRecord.cs",
-              "DocumentMoniker": "H:\\Kolya\\Grad project\\Graduation project\\Health.Application\\Models\\MedicalRecord.cs",
-              "RelativeDocumentMoniker": "Health.Application\\Models\\MedicalRecord.cs",
-              "ToolTip": "H:\\Kolya\\Grad project\\Graduation project\\Health.Application\\Models\\MedicalRecord.cs",
-              "RelativeToolTip": "Health.Application\\Models\\MedicalRecord.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T13:04:16.675Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MedicalTask.cs",
-              "DocumentMoniker": "H:\\Kolya\\Grad project\\Graduation project\\Health.Application\\Models\\MedicalTask.cs",
-              "RelativeDocumentMoniker": "Health.Application\\Models\\MedicalTask.cs",
-              "ToolTip": "H:\\Kolya\\Grad project\\Graduation project\\Health.Application\\Models\\MedicalTask.cs",
-              "RelativeToolTip": "Health.Application\\Models\\MedicalTask.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T13:04:24.697Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Medication.cs",
-              "DocumentMoniker": "H:\\Kolya\\Grad project\\Graduation project\\Health.Application\\Models\\Medication.cs",
-              "RelativeDocumentMoniker": "Health.Application\\Models\\Medication.cs",
-              "ToolTip": "H:\\Kolya\\Grad project\\Graduation project\\Health.Application\\Models\\Medication.cs",
-              "RelativeToolTip": "Health.Application\\Models\\Medication.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T13:04:29.782Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Notification.cs",
-              "DocumentMoniker": "H:\\Kolya\\Grad project\\Graduation project\\Health.Application\\Models\\Notification.cs",
-              "RelativeDocumentMoniker": "Health.Application\\Models\\Notification.cs",
-              "ToolTip": "H:\\Kolya\\Grad project\\Graduation project\\Health.Application\\Models\\Notification.cs",
-              "RelativeToolTip": "Health.Application\\Models\\Notification.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T13:04:40.413Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Message.cs",
-              "DocumentMoniker": "H:\\Kolya\\Grad project\\Graduation project\\Health.Application\\Models\\Message.cs",
-              "RelativeDocumentMoniker": "Health.Application\\Models\\Message.cs",
-              "ToolTip": "H:\\Kolya\\Grad project\\Graduation project\\Health.Application\\Models\\Message.cs",
-              "RelativeToolTip": "Health.Application\\Models\\Message.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T13:04:35.456Z",
+              "WhenOpened": "2025-12-15T12:35:06.334Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Nurse.cs",
-              "DocumentMoniker": "H:\\Kolya\\Grad project\\Graduation project\\Health.Application\\Models\\Nurse.cs",
-              "RelativeDocumentMoniker": "Health.Application\\Models\\Nurse.cs",
-              "ToolTip": "H:\\Kolya\\Grad project\\Graduation project\\Health.Application\\Models\\Nurse.cs",
-              "RelativeToolTip": "Health.Application\\Models\\Nurse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAANAAAAAAAAAA==",
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "H:\\Kolya\\Grad project\\Graduation project\\Health.Application\\Models\\Doctor.cs",
+              "RelativeDocumentMoniker": "Health.Application\\Models\\Doctor.cs",
+              "ToolTip": "H:\\Kolya\\Grad project\\Graduation project\\Health.Application\\Models\\Doctor.cs",
+              "RelativeToolTip": "Health.Application\\Models\\Doctor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T13:04:44.735Z",
+              "WhenOpened": "2025-12-15T12:32:23.199Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Patient.cs",
-              "DocumentMoniker": "H:\\Kolya\\Grad project\\Graduation project\\Health.Application\\Models\\Patient.cs",
-              "RelativeDocumentMoniker": "Health.Application\\Models\\Patient.cs",
-              "ToolTip": "H:\\Kolya\\Grad project\\Graduation project\\Health.Application\\Models\\Patient.cs",
-              "RelativeToolTip": "Health.Application\\Models\\Patient.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAANAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "H:\\Kolya\\Grad project\\Graduation project\\Health.Application\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Health.Application\\Models\\User.cs",
+              "ToolTip": "H:\\Kolya\\Grad project\\Graduation project\\Health.Application\\Models\\User.cs",
+              "RelativeToolTip": "Health.Application\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T13:04:48.75Z",
+              "WhenOpened": "2025-12-15T12:32:14.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "H:\\Kolya\\Grad project\\Graduation project\\Graduation project\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Graduation project\\Controllers\\AuthController.cs",
+              "ToolTip": "H:\\Kolya\\Grad project\\Graduation project\\Graduation project\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Graduation project\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBcAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T12:16:01.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "H:\\Kolya\\Grad project\\Graduation project\\Health.Application\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "Health.Application\\Services\\EmailService.cs",
+              "ToolTip": "H:\\Kolya\\Grad project\\Graduation project\\Health.Application\\Services\\EmailService.cs",
+              "RelativeToolTip": "Health.Application\\Services\\EmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T12:09:39.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "H:\\Kolya\\Grad project\\Graduation project\\Health.Application\\IServices\\IEmailService.cs",
+              "RelativeDocumentMoniker": "Health.Application\\IServices\\IEmailService.cs",
+              "ToolTip": "H:\\Kolya\\Grad project\\Graduation project\\Health.Application\\IServices\\IEmailService.cs",
+              "RelativeToolTip": "Health.Application\\IServices\\IEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T12:09:24.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "H:\\Kolya\\Grad project\\Graduation project\\Health.Application\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Health.Application\\Services\\AuthService.cs",
+              "ToolTip": "H:\\Kolya\\Grad project\\Graduation project\\Health.Application\\Services\\AuthService.cs",
+              "RelativeToolTip": "Health.Application\\Services\\AuthService.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwHwAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T12:08:05.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "H:\\Kolya\\Grad project\\Graduation project\\Health.Application\\IServices\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Health.Application\\IServices\\IAuthService.cs",
+              "ToolTip": "H:\\Kolya\\Grad project\\Graduation project\\Health.Application\\IServices\\IAuthService.cs",
+              "RelativeToolTip": "Health.Application\\IServices\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T12:06:55.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "H:\\Kolya\\Grad project\\Graduation project\\Health.Application\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "Health.Application\\Services\\TokenService.cs",
+              "ToolTip": "H:\\Kolya\\Grad project\\Graduation project\\Health.Application\\Services\\TokenService.cs",
+              "RelativeToolTip": "Health.Application\\Services\\TokenService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAYwBEAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T11:48:57.401Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "Chat.cs",
-              "DocumentMoniker": "H:\\Kolya\\Grad project\\Graduation project\\Health.Application\\Models\\Chat.cs",
-              "RelativeDocumentMoniker": "Health.Application\\Models\\Chat.cs",
-              "ToolTip": "H:\\Kolya\\Grad project\\Graduation project\\Health.Application\\Models\\Chat.cs",
-              "RelativeToolTip": "Health.Application\\Models\\Chat.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAANAAAAAAAAAA==",
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "H:\\Kolya\\Grad project\\Graduation project\\Health.Application\\IServices\\ITokenService.cs",
+              "RelativeDocumentMoniker": "Health.Application\\IServices\\ITokenService.cs",
+              "ToolTip": "H:\\Kolya\\Grad project\\Graduation project\\Health.Application\\IServices\\ITokenService.cs",
+              "RelativeToolTip": "Health.Application\\IServices\\ITokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T13:05:07.014Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Appointment.cs",
-              "DocumentMoniker": "H:\\Kolya\\Grad project\\Graduation project\\Health.Application\\Models\\Appointment.cs",
-              "RelativeDocumentMoniker": "Health.Application\\Models\\Appointment.cs",
-              "ToolTip": "H:\\Kolya\\Grad project\\Graduation project\\Health.Application\\Models\\Appointment.cs",
-              "RelativeToolTip": "Health.Application\\Models\\Appointment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T13:01:02.452Z",
+              "WhenOpened": "2025-12-15T11:48:36.423Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
+              "Title": "ResetPasswordRequestDto.cs",
+              "DocumentMoniker": "H:\\Kolya\\Grad project\\Graduation project\\Health.Contracts\\Requests\\ResetPasswordRequestDto.cs",
+              "RelativeDocumentMoniker": "Health.Contracts\\Requests\\ResetPasswordRequestDto.cs",
+              "ToolTip": "H:\\Kolya\\Grad project\\Graduation project\\Health.Contracts\\Requests\\ResetPasswordRequestDto.cs",
+              "RelativeToolTip": "Health.Contracts\\Requests\\ResetPasswordRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T11:45:01.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "H:\\Kolya\\Grad project\\Graduation project\\Graduation project\\Program.cs",
               "RelativeDocumentMoniker": "Graduation project\\Program.cs",
               "ToolTip": "H:\\Kolya\\Grad project\\Graduation project\\Graduation project\\Program.cs",
               "RelativeToolTip": "Graduation project\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAwHYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T12:57:53.637Z",
+              "WhenOpened": "2025-12-13T17:09:07.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ForgotPasswordRequestDto.cs",
+              "DocumentMoniker": "H:\\Kolya\\Grad project\\Graduation project\\Health.Contracts\\Requests\\ForgotPasswordRequestDto.cs",
+              "RelativeDocumentMoniker": "Health.Contracts\\Requests\\ForgotPasswordRequestDto.cs",
+              "ToolTip": "H:\\Kolya\\Grad project\\Graduation project\\Health.Contracts\\Requests\\ForgotPasswordRequestDto.cs",
+              "RelativeToolTip": "Health.Contracts\\Requests\\ForgotPasswordRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T11:44:28.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AuthResponseDto.cs",
+              "DocumentMoniker": "H:\\Kolya\\Grad project\\Graduation project\\Health.Contracts\\Responses\\Users\\AuthResponseDto.cs",
+              "RelativeDocumentMoniker": "Health.Contracts\\Responses\\Users\\AuthResponseDto.cs",
+              "ToolTip": "H:\\Kolya\\Grad project\\Graduation project\\Health.Contracts\\Responses\\Users\\AuthResponseDto.cs",
+              "RelativeToolTip": "Health.Contracts\\Responses\\Users\\AuthResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T11:40:03.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LoginRequestDto.cs",
+              "DocumentMoniker": "H:\\Kolya\\Grad project\\Graduation project\\Health.Contracts\\Requests\\LoginRequestDto.cs",
+              "RelativeDocumentMoniker": "Health.Contracts\\Requests\\LoginRequestDto.cs",
+              "ToolTip": "H:\\Kolya\\Grad project\\Graduation project\\Health.Contracts\\Requests\\LoginRequestDto.cs",
+              "RelativeToolTip": "Health.Contracts\\Requests\\LoginRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T11:38:10.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RegisterRequestDto.cs",
+              "DocumentMoniker": "H:\\Kolya\\Grad project\\Graduation project\\Health.Contracts\\Requests\\RegisterRequestDto.cs",
+              "RelativeDocumentMoniker": "Health.Contracts\\Requests\\RegisterRequestDto.cs",
+              "ToolTip": "H:\\Kolya\\Grad project\\Graduation project\\Health.Contracts\\Requests\\RegisterRequestDto.cs",
+              "RelativeToolTip": "Health.Contracts\\Requests\\RegisterRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T11:36:03.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ApplicationRole.cs",
+              "DocumentMoniker": "H:\\Kolya\\Grad project\\Graduation project\\Health.Application\\Models\\ApplicationRole.cs",
+              "RelativeDocumentMoniker": "Health.Application\\Models\\ApplicationRole.cs",
+              "ToolTip": "H:\\Kolya\\Grad project\\Graduation project\\Health.Application\\Models\\ApplicationRole.cs",
+              "RelativeToolTip": "Health.Application\\Models\\ApplicationRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T11:30:51.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "H:\\Kolya\\Grad project\\Graduation project\\Graduation project\\appsettings.json",
+              "RelativeDocumentMoniker": "Graduation project\\appsettings.json",
+              "ToolTip": "H:\\Kolya\\Grad project\\Graduation project\\Graduation project\\appsettings.json",
+              "RelativeToolTip": "Graduation project\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-13T17:27:12.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "JwtSettings.cs",
+              "DocumentMoniker": "H:\\Kolya\\Grad project\\Graduation project\\Health.Application\\Models\\JwtSettings.cs",
+              "RelativeDocumentMoniker": "Health.Application\\Models\\JwtSettings.cs",
+              "ToolTip": "H:\\Kolya\\Grad project\\Graduation project\\Health.Application\\Models\\JwtSettings.cs",
+              "RelativeToolTip": "Health.Application\\Models\\JwtSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T17:25:22.294Z",
               "EditorCaption": ""
             }
           ]

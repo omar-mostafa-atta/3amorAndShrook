@@ -7,7 +7,7 @@ namespace Health.Application.Models
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public string ProfilePictureUrl { get; set; }
+        public string? ProfilePictureUrl { get; set; } = "TEST.pNG";
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 
       

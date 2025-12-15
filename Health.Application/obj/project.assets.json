@@ -59,6 +59,22 @@
           }
         }
       },
+      "Microsoft.AspNetCore.Authentication.Google/8.0.22": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Microsoft.AspNetCore.Authentication.Google.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.AspNetCore.Authentication.Google.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Microsoft.AspNetCore.Cryptography.Internal/8.0.0": {
         "type": "package",
         "compile": {
@@ -1559,6 +1575,16 @@
             "rid": "win"
           }
         }
+      },
+      "Health.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Health.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Health.Contracts.dll": {}
+        }
       }
     }
   },
@@ -1617,6 +1643,21 @@
         "lib/netstandard2.0/Humanizer.dll",
         "lib/netstandard2.0/Humanizer.xml",
         "logo.png"
+      ]
+    },
+    "Microsoft.AspNetCore.Authentication.Google/8.0.22": {
+      "sha512": "NXmczBh2Ze0x+HbMXIlBHoG+8y6NZHA1SA8vNVAUJdlw1B4w78ZJ3L5dnNNfstBs35bGOdG5F2TSp00Gx48Q/w==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authentication.google/8.0.22",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net8.0/Microsoft.AspNetCore.Authentication.Google.dll",
+        "lib/net8.0/Microsoft.AspNetCore.Authentication.Google.xml",
+        "microsoft.aspnetcore.authentication.google.8.0.22.nupkg.sha512",
+        "microsoft.aspnetcore.authentication.google.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Cryptography.Internal/8.0.0": {
@@ -4179,10 +4220,17 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Health.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../Health.Contracts/Health.Contracts.csproj",
+      "msbuildProject": "../Health.Contracts/Health.Contracts.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Health.Contracts >= 1.0.0",
+      "Microsoft.AspNetCore.Authentication.Google >= 8.0.22",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 8.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.0",
@@ -4224,7 +4272,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "H:\\Kolya\\Grad project\\Graduation project\\Health.Contracts\\Health.Contracts.csproj": {
+              "projectPath": "H:\\Kolya\\Grad project\\Graduation project\\Health.Contracts\\Health.Contracts.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -4243,6 +4295,10 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "Microsoft.AspNetCore.Authentication.Google": {
+            "target": "Package",
+            "version": "[8.0.22, )"
+          },
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
             "target": "Package",
             "version": "[8.0.0, )"
