@@ -51,6 +51,22 @@ namespace Graduation_project.Controllers
             return BadRequest(new { Errors = response.Errors });
         }
 
+        // POST: api/Auth/register/nurse
+        [HttpPost("register/nurse")]
+        [AllowAnonymous]
+        public async Task<IActionResult> RegisterNurse([FromBody] RegisterNurseRequestDto model)
+        {
+            var response = await _authService.RegisterNurseAsync(model);
+
+            if (response.IsSuccess)
+            {
+                response.Errors = null;
+                return Ok(response);
+            }
+
+            return BadRequest(new { Errors = response.Errors });
+        }
+
 
         // POST: api/Auth/login
         [HttpPost("login")]

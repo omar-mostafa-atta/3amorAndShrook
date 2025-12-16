@@ -14,7 +14,7 @@ namespace Health.Application
         public static async Task SeedRolesAsync(
             RoleManager<ApplicationRole> roleManager)
         {
-            string[] roles = { "Patient", "Doctor", "Nurse" };
+            string[] roles = { "Admin", "Patient", "Doctor", "Nurse" };
 
             foreach (var role in roles)
             {
@@ -24,6 +24,42 @@ namespace Health.Application
                         new ApplicationRole { Name = role });
                 }
             }
+        }
+
+        public static async Task SeedAdminUserAsync(
+        UserManager<User> userManager,
+        RoleManager<ApplicationRole> roleManager)
+        {
+            
+            const string adminEmail = "admin@health.com"; 
+            const string adminPassword = "AdminPassword123!"; 
+
+          
+            var adminUser = await userManager.FindByEmailAsync(adminEmail);
+
+            if (adminUser == null)
+            {
+              
+                adminUser = new User
+                {
+                    UserName = "AdminUser",
+                    Email = adminEmail,
+                    FirstName = "System",
+                    LastName = "Admin",
+                    EmailConfirmed = true 
+                };
+
+                
+                var result = await userManager.CreateAsync(adminUser, adminPassword);
+
+                if (result.Succeeded)
+                {
+                    
+                    await userManager.AddToRoleAsync(adminUser, "Admin");
+                }
+              
+            }
+           
         }
     }
 

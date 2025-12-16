@@ -8,6 +8,9 @@ namespace Health.Application.IServices
 {
     public interface IEmailService
     {
-        Task SendPasswordResetEmailAsync(string toEmail, string userId, string token);
+        Task SendEmailAsync(string toEmail, string subject, string message);
+
+        // For sending the specific password reset email
+        Task SendPasswordResetEmailAsync(string email, string userId, string token);
     }
 }

@@ -7,21 +7,28 @@ using System.Threading.Tasks;
 
 namespace Health.Application.Models
 {
-    public class Doctor
+    public class Doctor : UserBase
     {
         [Key]
         public Guid Id { get; set; }
 
         public string Specialization { get; set; }
         public string LicenseNumber { get; set; }
-        public string? Bio { get; set; } // el Bio nullable ya Shrook 34an momkn ykon msh 3andoh ay Bio 3aiz yktbo bs lw 7aba t8ereha 2olili 
+        public string? Bio { get; set; } 
         public int PhoneNumber { get; set; }
         public string AvailabilitySchedule { get; set; }
 
+        public DoctorStatus Status { get; set; }= DoctorStatus.Pending;
         public User User { get; set; }
 
         public ICollection<Appointment> Appointments { get; set; }
         public ICollection<MedicalTask> MedicalTasks { get; set; }
+    }
+    public enum DoctorStatus
+    {
+        Pending,
+        Approved,
+        Rejected
     }
 
 }

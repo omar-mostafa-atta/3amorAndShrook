@@ -3,11 +3,7 @@ using Health.Application.Models;
 using Health.Contracts.Requests;
 using Health.Contracts.Responses.Users;
 using Microsoft.AspNetCore.Identity;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Data;
 
 namespace Health.Application.Services
 {
@@ -49,16 +45,26 @@ namespace Health.Application.Services
                 EmailConfirmed = true
             };
 
-            var result = await _userManager.CreateAsync(user, "Patient");
+            var result = await _userManager.CreateAsync(user, request.Password);
 
             if (result.Succeeded)
             {
-                await _userManager.AddToRoleAsync(user, request.Password);
+                await _userManager.AddToRoleAsync(user,"Patient");
 
-               user.Patient = new Patient();
- 
+              
+                var patient = new Patient
+                {
+                    FirstName = request.FirstName,
+                    LastName = request.LastName,
+                    Email= request.Email,
+                    Gender = request.Gender,
+                    User = user 
+                };
 
-                _dbContext.Users.Add(user);
+            
+                _dbContext.Patients.Add(patient);
+
+
                 await _dbContext.SaveChangesAsync();
 
                
@@ -116,6 +122,8 @@ namespace Health.Application.Services
                     Bio = request.Bio,
                     PhoneNumber = request.DoctorPhoneNumber,
                     AvailabilitySchedule = request.AvailabilitySchedule,
+                    Email = request.Email,
+                    Status = DoctorStatus.Pending,
                     User = user
                 };
 
@@ -143,6 +151,73 @@ namespace Health.Application.Services
                 Errors = result.Errors.Select(e => e.Description)
             };
         }
+
+
+        public async Task<AuthResponseDto> RegisterNurseAsync(RegisterNurseRequestDto request)
+        {
+            var userExists = await _userManager.FindByEmailAsync(request.Email);
+            if (userExists != null)
+            {
+                return new AuthResponseDto { IsSuccess = false, Errors = new[] { "User with this email already exists." } };
+            }
+
+
+            var user = new User
+            {
+                Email = request.Email,
+                UserName = request.Email,
+                FirstName = request.FirstName,
+                LastName = request.LastName,
+                PhoneNumber = request.NursePhoneNumber.ToString(),
+                EmailConfirmed = true
+            };
+
+            var result = await _userManager.CreateAsync(user, request.Password);
+
+            if (result.Succeeded)
+            {
+
+                const string NurseRole = "Nurse";
+                await _userManager.AddToRoleAsync(user, NurseRole);
+
+                var nurse = new Nurse
+                {
+                    FirstName = request.FirstName,
+                    LastName = request.LastName,
+                    Specialization = request.Specialization,
+                    LicenseNumber = request.LicenseNumber,
+                    PhoneNumber = request.NursePhoneNumber,
+                    IsActive = request.IsActive,
+                    Email = request.Email,
+                    User = user
+                };
+
+
+                _dbContext.Nurses.Add(nurse);
+
+                await _dbContext.SaveChangesAsync();
+
+            
+                return new AuthResponseDto
+                {
+                    UserId = user.Id,
+                    Email = user.Email,
+                    FirstName = user.FirstName,
+                    LastName = user.LastName,
+                    Token = await _tokenService.CreateToken(user),
+                    IsSuccess = true
+                };
+            }
+
+            return new AuthResponseDto
+            {
+                IsSuccess = false,
+                Errors = result.Errors.Select(e => e.Description)
+            };
+
+
+
+        }
         public async Task<AuthResponseDto> LoginAsync(LoginRequestDto request)
         {
             var user = await _userManager.FindByEmailAsync(request.Email);
@@ -151,11 +226,31 @@ namespace Health.Application.Services
             {
                 return new AuthResponseDto { IsSuccess = false, Errors = new[] { "Invalid credentials." } };
             }
-
+           
             var result = await _signInManager.CheckPasswordSignInAsync(user, request.Password, false);
 
             if (result.Succeeded)
             {
+              var roles =  await _userManager.GetRolesAsync(user);
+
+                if (roles.Contains("Doctor"))
+                {
+                    var doctor = _dbContext.Doctors.SingleOrDefault(d => d.User.Id == user.Id);
+                    if (doctor == null || doctor.Status != DoctorStatus.Approved)
+                    {
+                        
+                        return new AuthResponseDto { IsSuccess = false, Errors = new[] { "Your Doctor account is pending approval or has been rejected." } };
+                    }
+                }
+                else if (roles.Contains("Nurse"))
+                {
+                    var nurse = _dbContext.Nurses.SingleOrDefault(n => n.User.Id == user.Id);
+                    if (nurse == null || nurse.Status != NurseStatus.Approved)
+                    {
+                        return new AuthResponseDto { IsSuccess = false, Errors = new[] { "Your Nurse account is pending approval or has been rejected." } };
+                    }
+                }
+
                 return new AuthResponseDto
                 {
                     UserId = user.Id,
@@ -177,8 +272,6 @@ namespace Health.Application.Services
 
             var token = await _userManager.GeneratePasswordResetTokenAsync(user);
 
-          
-
             await _emailService.SendPasswordResetEmailAsync(user.Email, user.Id.ToString(), token);
 
             return true;
@@ -189,8 +282,11 @@ namespace Health.Application.Services
             var user = await _userManager.FindByIdAsync(request.UserId);
             if (user == null) return false;
 
-            var decodedToken = request.Token;
-          
+            var tokenFromRequest = request.Token;
+
+            var decodedToken = System.Net.WebUtility.UrlDecode(tokenFromRequest);
+
+         
             var result = await _userManager.ResetPasswordAsync(user, decodedToken, request.NewPassword);
 
             return result.Succeeded;

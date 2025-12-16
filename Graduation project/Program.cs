@@ -28,6 +28,11 @@ builder.Services
 builder.Services.AddDbContext<WateenDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("OmarConnection")));
 
+//Dh el Email service configuration
+builder.Services.Configure<EmailSettings>(
+    builder.Configuration.GetSection("EmailSettings"));
+builder.Services.AddScoped<IEmailService, EmailService>();
+
 var jwtSettings = builder.Configuration.GetSection("JwtSettings");
 var key = Encoding.ASCII.GetBytes(jwtSettings["Secret"]);
 
@@ -83,11 +88,21 @@ app.UseCors(MyAllowSpecificOrigins);
 
 using (var scope = app.Services.CreateScope())
 {
-    var roleManager =
-        scope.ServiceProvider.GetRequiredService<
-            RoleManager<ApplicationRole>>();
+    var serviceProvider = scope.ServiceProvider;
 
-    await IdentitySeeder.SeedRolesAsync(roleManager);
+
+    var roleManager = serviceProvider.GetRequiredService<RoleManager<ApplicationRole>>();
+    var userManager = serviceProvider.GetRequiredService<UserManager<User>>();
+
+    try
+    {
+        await IdentitySeeder.SeedRolesAsync(roleManager);
+        
+        await IdentitySeeder.SeedAdminUserAsync(userManager, roleManager);
+    }
+    catch (Exception ex)
+    {
+    }
 }
 
 // Configure the HTTP request pipeline.
@@ -108,17 +123,6 @@ app.MapControllers();
 app.Run();
 
 
-async Task SeedRolesAsync(RoleManager<ApplicationRole> roleManager)
-{
-    string[] roleNames = { "Admin", "Patient", "Doctor", "Nurse" };
-    foreach (var roleName in roleNames)
-    {
-        if (!await roleManager.RoleExistsAsync(roleName))
-        {
-            await roleManager.CreateAsync(new ApplicationRole { Name = roleName });
-        }
-    }
-}
 
 async Task SeedAdminUserAsync(UserManager<User> userManager)
 {

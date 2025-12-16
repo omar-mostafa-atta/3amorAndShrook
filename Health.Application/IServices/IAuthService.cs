@@ -12,6 +12,7 @@ namespace Health.Application.IServices
     {
         Task<AuthResponseDto> RegisterPatientAsync(RegisterPatientRequestDto request);
         Task<AuthResponseDto> RegisterDoctorAsync(RegisterDoctorRequestDto request);
+        Task<AuthResponseDto> RegisterNurseAsync(RegisterNurseRequestDto request);
         Task<AuthResponseDto> LoginAsync(LoginRequestDto request);
         Task<bool> ForgotPasswordAsync(ForgotPasswordRequestDto request);
         Task<bool> ResetPasswordAsync(ResetPasswordRequestDto request);

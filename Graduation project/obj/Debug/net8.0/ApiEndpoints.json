@@ -59,6 +59,22 @@
   },
   {
     "ContainingType": "Graduation_project.Controllers.AuthController",
+    "Method": "RegisterNurse",
+    "RelativePath": "api/Auth/register/nurse",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Health.Contracts.Requests.RegisterNurseRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Graduation_project.Controllers.AuthController",
     "Method": "RegisterPatient",
     "RelativePath": "api/Auth/register/Patient",
     "HttpMethod": "POST",

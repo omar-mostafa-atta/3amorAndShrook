@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Health.Application.Models
 {
-    public class Nurse
+    public class Nurse : UserBase
     {
         [Key]
         public Guid Id { get; set; }
@@ -18,9 +18,16 @@ namespace Health.Application.Models
         public int ExperienceYears { get; set; }
         public int PhoneNumber { get; set; }
         public bool IsActive { get; set; }
-
+        
+        public NurseStatus Status { get; set; }= NurseStatus.Pending;
 
         public ICollection<HomeServiceRequest> HomeServiceRequests { get; set; }
+    }
+    public enum NurseStatus
+    {
+        Pending,
+        Approved,
+        Rejected
     }
 
 }

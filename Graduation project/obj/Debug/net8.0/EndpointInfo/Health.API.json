@@ -67,6 +67,37 @@
         }
       }
     },
+    "/api/Auth/register/nurse": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegisterNurseRequestDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegisterNurseRequestDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegisterNurseRequestDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Auth/login": {
       "post": {
         "tags": [
@@ -266,6 +297,63 @@
         },
         "additionalProperties": false
       },
+      "RegisterNurseRequestDto": {
+        "required": [
+          "confirmPassword",
+          "email",
+          "experienceYears",
+          "firstName",
+          "isActive",
+          "lastName",
+          "licenseNumber",
+          "nursePhoneNumber",
+          "password"
+        ],
+        "type": "object",
+        "properties": {
+          "firstName": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "lastName": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "email": {
+            "minLength": 1,
+            "type": "string",
+            "format": "email"
+          },
+          "password": {
+            "minLength": 6,
+            "type": "string"
+          },
+          "confirmPassword": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "licenseNumber": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "specialization": {
+            "type": "string",
+            "nullable": true
+          },
+          "experienceYears": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nursePhoneNumber": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "isActive": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
       "RegisterPatientRequestDto": {
         "required": [
           "confirmPassword",
@@ -296,6 +384,11 @@
           "confirmPassword": {
             "minLength": 1,
             "type": "string"
+          },
+          "gender": {
+            "pattern": "^(Male|Female|male|female)$",
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
